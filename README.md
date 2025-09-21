@@ -13,13 +13,14 @@ It leverages [Pop Shell](https://github.com/pop-os/shell?tab=readme-ov-file#pop-
 
 ## How to install
 
+Execute the scripts with `/usr/bin/bash`:
 ```bash
 bash 0-backup-home.sh // Optional
 bash 1-gnome-config.sh
 bash 2-install-pop-shell.sh
 bash 3-configure-pop-shell.sh
 ```
-Note that a user logout is reauired between each script.
+Note that a user logout is *required between each script*.
 
 ## Default terminal (Super+Return)
 
