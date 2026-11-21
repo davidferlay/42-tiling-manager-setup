@@ -10,11 +10,9 @@ nvm current
 npm -v
 
 # Install tsc https://www.typescriptlang.org/download
-if ! command -v tsc >/dev/null 2>&1; then
-  echo "Typescript not found. Installing..."
-  npm install -g typescript
-  tsc -v
-fi
+echo "Installing TypeScript 5..."
+npm install -g typescript@5
+tsc -v
 
 # ----- Prerequisite check -----
 REQUIRED_CMDS=("git" "node" "tsc" "make" "unzip" "lsb_release")
